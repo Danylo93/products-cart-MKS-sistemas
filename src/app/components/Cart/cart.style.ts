@@ -38,7 +38,7 @@ export const ShoppingCartOpen = styled.div`
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  width: 4px;
+  width: 486px;
   height: 100%;
   top: 0;
   right: 0;
@@ -114,8 +114,8 @@ export const Button = styled.button`
 
 export const ButtonClose = styled.button`
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 38px;
+  height: 38px;
   right: -20px;
   font-size: 15px;
   color: #fff;

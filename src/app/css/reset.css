@@ -1,14 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 * {
-  /* Scrollbar personalizada no Firefox */
+ 
   scrollbar-width: thin;
   scrollbar-color: #0f52ba;
 
-  /* Scrollbar personalizada no Chrome, Edge e Safari */
+ 
   *::-webkit-scrollbar {
     width: 12px;
   }
@@ -112,7 +108,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,

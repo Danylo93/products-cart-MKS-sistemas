@@ -87,12 +87,12 @@ export default function HomePage() {
   } = useQuery("productsData", apiProducts, {
     onError: () => {
       setErrorMessage(
-        "⚠️ Aconteceu um erro inesperado. Por favor, atualize a página e tente novamente.",
+        " ❌ Aconteceu um erro inesperado.",
       );
     },
   });
 
-  // Verifique se ocorreu algum erro
+
   if (error) return <ErrorText>{errorMessage}</ErrorText>;
 
   return (

@@ -46,14 +46,12 @@ export default function ShoppingCart({
   return (
     <Container>
       <ContainerShoppingCart onClick={toggleCart}>
-        {/* Ícone de carrinho */}
+      
         <TiShoppingCart size={20} />
 
-        {/* Número de itens no carrinho */}
         <div>{cartItems.reduce((total, item) => total + item.quantity, 0)}</div>
       </ContainerShoppingCart>
 
-      {/* Janela do carrinho */}
       {isCartOpen && (
         <ShoppingCartOpen>
           <ContainerShoppingCartHeader>
@@ -65,7 +63,7 @@ export default function ShoppingCart({
           </ContainerShoppingCartHeader>
 
           <ScrollableContainer>
-            {/* Os itens do carrinho são renderizados aqui */}
+        
             <ContainerButton>
               {cartItems.map((item, index) => (
                 <ContainerCardItens key={index}>
@@ -117,7 +115,7 @@ export default function ShoppingCart({
               <TotalPurchase>Total:</TotalPurchase>
 
               <TotalPurchase>
-                {/* Formata o valor para a moeda brasileira (Real) */}
+              
                 {calculateTotal().toLocaleString("pt-BR", {
                   style: "currency",
                   currency: "BRL",

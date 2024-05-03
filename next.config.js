@@ -8,7 +8,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "mks-sistemas.nyc3.digitaloceanspaces.com",
+        hostname: "products-cart-mks-sistemas.vercel.app",
       },
       {
         protocol: "https",
